@@ -65,10 +65,6 @@
   <img height="170" src="https://streak-stats.demolab.com?user=jeev-jo&hide_border=true&background=00000000&ring=22d3ee&fire=a78bfa&currStreakNum=8b949e&sideNums=8b949e&currStreakLabel=22d3ee&sideLabels=8b949e&dates=6e7681&stroke=8b949e" alt="Contribution streak">
 </div>
 
-<div align="center">
-  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jeev-jo&layout=compact&hide_border=true&bg_color=00000000&title_color=22d3ee&text_color=8b949e" alt="Top languages">
-</div>
-
 <!-- HIDDEN: contribution snake + recent activity. These need the snake.yml and
      update-activity.yml workflows, and GitHub Actions is currently blocked on this
      account by a billing lock. To re-enable after fixing billing: restore this section
