@@ -1,18 +1,19 @@
 """Generate an animated contribution-snake SVG from the GitHub contribution graph.
 
-Fetches the last year of contributions for USER and writes one SVG per palette
-(dark/light). The snake sweeps the grid column by column in a serpentine path,
-"eating" each contribution cell as it passes. Pure SMIL animation, so it plays
-inside GitHub's sanitized <img> rendering with no JavaScript.
+Fetches the last year of contributions for USER straight from GitHub's public
+calendar endpoint and writes one SVG per palette (dark/light). The snake sweeps
+the grid column by column in a serpentine path, "eating" each contribution cell
+as it passes. Pure SMIL animation, so it plays inside GitHub's sanitized <img>
+rendering with no JavaScript.
 
 Usage: python scripts/generate_snake.py
 """
 
-import json
+import re
 import urllib.request
 
 USER = "jeev-jo"
-API = f"https://github-contributions-api.jogruber.de/v4/{USER}?y=last"
+API = f"https://github.com/users/{USER}/contributions"
 
 CELL = 12          # cell edge, px
 PITCH = 15         # cell edge + gap
@@ -34,14 +35,17 @@ PALETTES = {
     },
 }
 
-WEEKDAY = {"Sun": 0, "Mon": 1, "Tue": 2, "Wed": 3, "Thu": 4, "Fri": 5, "Sat": 6}
-
-
 def fetch_days():
-    req = urllib.request.Request(API, headers={"User-Agent": "snake-generator"})
+    req = urllib.request.Request(API, headers={"User-Agent": "Mozilla/5.0 snake-generator"})
     with urllib.request.urlopen(req, timeout=30) as r:
-        data = json.load(r)
-    return data["contributions"]
+        html = r.read().decode()
+    found = re.findall(r'data-date="(\d{4}-\d{2}-\d{2})"[^>]*data-level="(\d)"', html)
+    if not found:  # attribute order varies across GitHub deploys
+        found = [(d, l) for l, d in re.findall(
+            r'data-level="(\d)"[^>]*data-date="(\d{4}-\d{2}-\d{2})"', html)]
+    if not found:
+        raise RuntimeError("no contribution cells found in GitHub response")
+    return [{"date": d, "level": int(l)} for d, l in sorted(found)]
 
 
 def build_grid(days):
