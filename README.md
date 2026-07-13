@@ -50,33 +50,32 @@
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,flask,azure,docker,redis,git,github,postman,vscode,linux&perline=12" alt="Python, TensorFlow, scikit-learn, Flask, Azure, Docker, Redis, Git, GitHub, Postman, VS Code, Linux">
   <br><br>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
-  <img src="https://img.shields.io/badge/CrewAI-FF5A50?style=for-the-badge" alt="CrewAI">
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras">
-  <img src="https://img.shields.io/badge/Azure%20ML-0078D4?style=for-the-badge" alt="Azure ML">
-  <img src="https://img.shields.io/badge/REST%20APIs-22d3ee?style=for-the-badge" alt="REST APIs">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-badges-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stack-badges-light.svg">
+    <img src="assets/stack-badges-dark.svg" alt="OpenAI, Anthropic, LangChain, CrewAI, Keras, Azure ML, REST APIs" width="100%">
+  </picture>
 </div>
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jeev-jo&show_icons=true&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=a78bfa&text_color=8b949e&ring_color=22d3ee" alt="GitHub stats">
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jeev-jo&show_icons=true&hide_border=true&hide_rank=true&hide=stars,prs&bg_color=00000000&title_color=22d3ee&icon_color=a78bfa&text_color=8b949e" alt="GitHub stats">
   <img height="170" src="https://streak-stats.demolab.com?user=jeev-jo&hide_border=true&background=00000000&ring=22d3ee&fire=a78bfa&currStreakNum=8b949e&sideNums=8b949e&currStreakLabel=22d3ee&sideLabels=8b949e&dates=6e7681&stroke=8b949e" alt="Contribution streak">
 </div>
 
-<!-- HIDDEN: contribution snake + recent activity. These need the snake.yml and
-     update-activity.yml workflows, and GitHub Actions is currently blocked on this
-     account by a billing lock. To re-enable after fixing billing: restore this section
-     from commit 8b501ba (README.md), then run both workflows from the Actions tab.
-
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeev-jo/jeev-jo/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeev-jo/jeev-jo/output/github-snake.svg">
-    <img src="https://raw.githubusercontent.com/jeev-jo/jeev-jo/output/github-snake-dark.svg" alt="Contribution snake" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg">
+    <img src="assets/github-snake-dark.svg" alt="Contribution snake" width="100%">
   </picture>
 </div>
+
+<!-- HIDDEN: recent activity. Needs the update-activity.yml workflow, and GitHub
+     Actions is currently blocked on this account by a billing lock. To re-enable
+     after fixing billing: remove this comment wrapper, wrap the two SECTION markers
+     below in HTML comments again, then run the workflow from the Actions tab.
 
 ## ⚡ Recent Activity
 
