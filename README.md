@@ -48,12 +48,10 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,flask,azure,docker,redis,git,github,postman,vscode,linux&perline=12" alt="Python, TensorFlow, scikit-learn, Flask, Azure, Docker, Redis, Git, GitHub, Postman, VS Code, Linux">
-  <br><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-badges-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/stack-badges-light.svg">
-    <img src="assets/stack-badges-dark.svg" alt="OpenAI, Anthropic, LangChain, CrewAI, Keras, Azure ML, REST APIs" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tech-stack-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/tech-stack-light.svg">
+    <img src="assets/tech-stack-dark.svg" alt="OpenAI, Anthropic, LangChain, CrewAI, Keras, Python, TensorFlow, scikit-learn, Flask, Azure, Docker, Redis, Git, GitHub, Postman, VS Code, Linux, Windows" width="100%">
   </picture>
 </div>
 
