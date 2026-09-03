@@ -51,15 +51,18 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/tech-stack-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/tech-stack-light.svg">
-    <img src="assets/tech-stack-dark.svg" alt="OpenAI, Anthropic, LangChain, CrewAI, Keras, Python, TensorFlow, scikit-learn, Flask, Azure, Docker, Redis, Git, GitHub, Postman, VS Code, Linux, Windows" width="100%">
+    <img src="assets/tech-stack-dark.svg" alt="Python, OpenAI, Anthropic, LangChain, CrewAI, FastAPI, Flask, TensorFlow, Keras, scikit-learn, Jupyter, Azure, Docker, Redis, Git, GitHub, Postman, VS Code, Linux, Windows" width="100%">
   </picture>
 </div>
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jeev-jo&show_icons=true&hide_border=true&hide_rank=true&hide=stars,prs&bg_color=00000000&title_color=22d3ee&icon_color=a78bfa&text_color=8b949e" alt="GitHub stats">
-  <img height="170" src="https://streak-stats.demolab.com?user=jeev-jo&hide_border=true&background=00000000&ring=22d3ee&fire=a78bfa&currStreakNum=8b949e&sideNums=8b949e&currStreakLabel=22d3ee&sideLabels=8b949e&dates=6e7681&stroke=8b949e" alt="Contribution streak">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/streak-light.svg">
+    <img src="assets/streak-dark.svg" alt="Contribution streak" width="60%">
+  </picture>
 </div>
 
 <div align="center">
