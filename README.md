@@ -73,16 +73,10 @@
   </picture>
 </div>
 
-<!-- HIDDEN: recent activity. Needs the update-activity.yml workflow, and GitHub
-     Actions is currently blocked on this account by a billing lock. To re-enable
-     after fixing billing: remove this comment wrapper, wrap the two SECTION markers
-     below in HTML comments again, then run the workflow from the Actions tab.
-
 ## ⚡ Recent Activity
 
-START_SECTION:activity
-END_SECTION:activity
--->
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ## 🌱 Currently Exploring
 
