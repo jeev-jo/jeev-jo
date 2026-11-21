@@ -76,7 +76,7 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [v0.2.3](https://github.com/jeev-jo/lumabar-rea/releases/tag/v0.2.3) in [jeev-jo/lumabar-rea](https://github.com/jeev-jo/lumabar-rea)
+1. 🚀 Published release [v0.2.4](https://github.com/jeev-jo/lumabar-rea/releases/tag/v0.2.4) in [jeev-jo/lumabar-rea](https://github.com/jeev-jo/lumabar-rea)
 <!--END_SECTION:activity-->
 
 ## 🌱 Currently Exploring
